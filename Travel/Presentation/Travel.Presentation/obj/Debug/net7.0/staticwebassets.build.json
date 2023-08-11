@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "Aj4rfir+6ui10OfRN+UpOoRc/2l/biZcR9fInxkJN8w=",
+  "Source": "Travel.Presentation",
+  "BasePath": "_content/Travel.Presentation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Travel.Presentation/wwwroot",
+      "Source": "Travel.Presentation",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/Travel/Presentation/Travel.Presentation/wwwroot/",
+      "BasePath": "_content/Travel.Presentation",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

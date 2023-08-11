@@ -1,0 +1,60 @@
+﻿<Properties StartupConfiguration="{11664F11-2429-435F-88BA-20412591CA79}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/Travel.Presentation/Program.cs">
+    <Files>
+      <File FileName="Presentation/Travel.Presentation/Views/Shared/_Layout.cshtml" />
+      <File FileName="Presentation/Travel.Presentation/Views/Home/Index.cshtml" Line="12" Column="51" />
+      <File FileName="Presentation/Travel.Presentation/Program.cs" Line="6" Column="44" />
+      <File FileName="Presentation/Travel.Presentation/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="Presentation/Travel.Presentation/Views/_ViewImports.cshtml" />
+      <File FileName="Presentation/Travel.Presentation/Views/_ViewStart.cshtml" />
+      <File FileName="Presentation/Travel.Presentation/web/index.html" />
+      <File FileName="Presentation/Travel.Presentation/web/contact.html" Line="1" Column="1" />
+      <File FileName="Presentation/Travel.Presentation/Controllers/HomeController.cs" Line="18" Column="23" />
+      <File FileName="Core/Domain/Entities/BaseEntity.cs" Line="10" Column="1" />
+      <File FileName="Core/Domain/Entities/Area1.cs" Line="8" Column="43" />
+      <File FileName="Infrastructure/Persistance/Contexts/ProjectDbContext.cs" Line="11" Column="52" />
+      <File FileName="Infrastructure/Persistance/ServiceRegistration.cs" Line="15" Column="77" />
+      <File FileName="Infrastructure/Persistance/DesignTimeDbContext.cs" Line="16" Column="6" />
+      <File FileName="Core/Application/Repositories/IRepository.cs" Line="10" Column="32" />
+      <File FileName="Core/Application/Repositories/IReadRepository.cs" Line="9" Column="36" />
+      <File FileName="Core/Application/Repositories/IFirstAreaReadRepository.cs" Line="6" Column="65" />
+      <File FileName="Infrastructure/Persistance/Repositories/ReadRepository.cs" Line="24" Column="22" />
+      <File FileName="Infrastructure/Persistance/Repositories/FirstAreaReadRepository.cs" Line="11" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Travel" expanded="True">
+            <Node name="Core" expanded="True">
+              <Node name="Application" expanded="True">
+                <Node name="Repositories" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Infrastructure" expanded="True">
+              <Node name="Persistance" expanded="True">
+                <Node name="Contexts" expanded="True" />
+                <Node name="Repositories" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Presentation" expanded="True">
+              <Node name="Travel.Presentation" expanded="True" selected="True">
+                <Node name="Controllers" expanded="True" />
+                <Node name="wwwroot" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Presentation.Travel.Presentation PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.ItemProperties.Infrastructure.Persistance FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Core.Domain FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Core.Application FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
