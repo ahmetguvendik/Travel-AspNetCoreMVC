@@ -21,6 +21,32 @@ namespace Persistance.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("Domain.Entities.FifthArea", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("text");
+
+                    b.Property<string>("ButtonTitle")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ButtonTitle2")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("SubTitle")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("FifthAreas");
+                });
+
             modelBuilder.Entity("Domain.Entities.FirstArea", b =>
                 {
                     b.Property<string>("Id")
@@ -41,6 +67,82 @@ namespace Persistance.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("FirstAreas");
+                });
+
+            modelBuilder.Entity("Domain.Entities.ForthArea", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("text");
+
+                    b.Property<string>("SubTitle")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ForthAreas");
+                });
+
+            modelBuilder.Entity("Domain.Entities.NewsArea", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("text");
+
+                    b.Property<string>("SubTitle")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("NewsAreas");
+                });
+
+            modelBuilder.Entity("Domain.Entities.SecondArea", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("text");
+
+                    b.Property<string>("SubTitle")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("SecondAreas");
+                });
+
+            modelBuilder.Entity("Domain.Entities.ThirdArea", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("text");
+
+                    b.Property<string>("ButtonTitle")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("SubTitle")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ThirdAreas");
                 });
 #pragma warning restore 612, 618
         }

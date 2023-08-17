@@ -10,10 +10,57 @@
         "dependencies": {
           "Application": "1.0.0",
           "Domain": "1.0.0",
+          "Microsoft.AspNet.Mvc": "5.2.9",
+          "Microsoft.EntityFrameworkCore": "7.0.10",
+          "Microsoft.NETCore.App": "2.2.7",
           "Persistance": "1.0.0"
         },
         "runtime": {
           "Travel.Presentation.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc/5.2.9": {
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.2.9",
+          "Microsoft.AspNet.WebPages": "3.2.9"
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {
+            "assemblyVersion": "5.2.9.0",
+            "fileVersion": "5.2.61129.10"
+          }
+        }
+      },
+      "Microsoft.AspNet.Razor/3.2.9": {
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61129.10"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.2.9": {
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.2.9",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61129.10"
+          },
+          "lib/net45/System.Web.WebPages.Deployment.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61129.10"
+          },
+          "lib/net45/System.Web.WebPages.Razor.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61129.10"
+          },
+          "lib/net45/System.Web.WebPages.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61129.10"
+          }
         }
       },
       "Microsoft.EntityFrameworkCore/7.0.10": {
@@ -93,6 +140,40 @@
         }
       },
       "Microsoft.Extensions.Primitives/7.0.0": {},
+      "Microsoft.NETCore.App/2.2.7": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetHostPolicy": "2.2.7",
+          "Microsoft.NETCore.Platforms": "2.2.3",
+          "Microsoft.NETCore.Targets": "2.0.0",
+          "NETStandard.Library": "2.0.3"
+        }
+      },
+      "Microsoft.NETCore.DotNetAppHost/2.2.7": {},
+      "Microsoft.NETCore.DotNetHostPolicy/2.2.7": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetHostResolver": "2.2.7"
+        }
+      },
+      "Microsoft.NETCore.DotNetHostResolver/2.2.7": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetAppHost": "2.2.7"
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.2.3": {},
+      "Microsoft.NETCore.Targets/2.0.0": {},
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.20105.407"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.2.3"
+        }
+      },
       "Npgsql/7.0.4": {
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "7.0.0"
@@ -150,6 +231,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AspNet.Mvc/5.2.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bcekKshCAh7kTWSMZPavQStSZQF/QmjEjO2gVWGITEd0/t5eRlb+ZLDE+az2qY1bZ8L6Hz0OCNeS0uzXtJcK5w==",
+      "path": "microsoft.aspnet.mvc/5.2.9",
+      "hashPath": "microsoft.aspnet.mvc.5.2.9.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Razor/3.2.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QOJEnEw3xp+t5lMvYR5nGCF4CfZpHqr2p8uZOBEgDZoB6r2txtSj6581YNr+/dOHjI3YRlo1QAKGQoSohbQ/KA==",
+      "path": "microsoft.aspnet.razor/3.2.9",
+      "hashPath": "microsoft.aspnet.razor.3.2.9.nupkg.sha512"
+    },
+    "Microsoft.AspNet.WebPages/3.2.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yByb721lwv8YFsx1oKA5CLKXa89XVbVMkPafS4bg/bPelBEgChq/coFBQEkA4kwcabG7AR56w3vapnoZUfr2Cw==",
+      "path": "microsoft.aspnet.webpages/3.2.9",
+      "hashPath": "microsoft.aspnet.webpages.3.2.9.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/7.0.10": {
       "type": "package",
@@ -241,6 +343,62 @@
       "sha512": "sha512-um1KU5kxcRp3CNuI8o/GrZtD4AIOXDk+RLsytjZ9QPok3ttLUelLKpilVPuaFT3TFjOhSibUAso0odbOaCDj3Q==",
       "path": "microsoft.extensions.primitives/7.0.0",
       "hashPath": "microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.App/2.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ybrn8qpFrdY74qjTdQuIjqv4QF2wIJmAvpIWC1C5kjt/VYRr3XajPo6AdRisfr8DqbVXpMqo8WDgXOVm+KduTw==",
+      "path": "microsoft.netcore.app/2.2.7",
+      "hashPath": "microsoft.netcore.app.2.2.7.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetAppHost/2.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YheaD+lYfIZ2K/A3u6Svph8ejU+r9ljqFVWqeWmqVWLUDcvNgNLnCLOr/oHIUgAD3d5ojOk02tpyAbtl2Ni8Hg==",
+      "path": "microsoft.netcore.dotnetapphost/2.2.7",
+      "hashPath": "microsoft.netcore.dotnetapphost.2.2.7.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetHostPolicy/2.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hFJ5xhFijBomv9xJ8d7uGOi4nU2otX5EF2qyCYRDdFEfVlpHTC8Dgz0/QYXZnZFW5fGxzQGEzV46OmmhUO72Eg==",
+      "path": "microsoft.netcore.dotnethostpolicy/2.2.7",
+      "hashPath": "microsoft.netcore.dotnethostpolicy.2.2.7.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetHostResolver/2.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OhwPnVl1kCHvGqxGS4G77nRY8Qp2M7lH+OONsYysiIZ35u9vKYh26X5Kik92q+ocn+pHMeiKLICpRp9cm0jzvw==",
+      "path": "microsoft.netcore.dotnethostresolver/2.2.7",
+      "hashPath": "microsoft.netcore.dotnethostresolver.2.2.7.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/2.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cdiDrA08CUT2gpupY2XDx+PzomJnKATPFSf/DeDhWEMhydlpSch1G0zbV7DE1U7YUrgmLoqNsCeCL0wI5bbbCA==",
+      "path": "microsoft.netcore.platforms/2.2.3",
+      "hashPath": "microsoft.netcore.platforms.2.2.3.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-odP/tJj1z6GylFpNo7pMtbd/xQgTC3Ex2If63dRTL38bBNMwsBnJ+RceUIyHdRBC0oik/3NehYT+oECwBhIM3Q==",
+      "path": "microsoft.netcore.targets/2.0.0",
+      "hashPath": "microsoft.netcore.targets.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+      "path": "microsoft.web.infrastructure/1.0.0",
+      "hashPath": "microsoft.web.infrastructure.1.0.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
     "Npgsql/7.0.4": {
       "type": "package",

@@ -13,6 +13,12 @@ namespace Persistance
         {
             collection.AddDbContext<ProjectDbContext>(opt => opt.UseNpgsql("User ID=postgres;Password=123456;Host=localhost;Port=5432;Database=TravelDb;"));
             collection.AddScoped<IFirstAreaReadRepository, FirstAreaReadRepository>();
+            collection.AddScoped<ISecondAreaReadRepository, SecondAreaReadRepository>();
+            collection.AddScoped<IThirdAreaReadRepository, ThirdAreaReadRepository>();
+            collection.AddScoped<IForthAreaReadRepository, ForthAreaReadRepository>();
+            collection.AddScoped<IFiftAreaReadRepository, FiftAreaReadRepository>();
+            collection.AddScoped<INewsAreaReadRepository, NewsAreaReadRepository>();
+
         }
     }
 }

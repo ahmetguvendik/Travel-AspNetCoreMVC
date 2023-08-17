@@ -1,25 +1,57 @@
 ﻿<Properties StartupConfiguration="{11664F11-2429-435F-88BA-20412591CA79}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/Travel.Presentation/Program.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/Travel.Presentation/ViewComponents/ThirdArea.cs">
     <Files>
-      <File FileName="Presentation/Travel.Presentation/Views/Shared/_Layout.cshtml" />
-      <File FileName="Presentation/Travel.Presentation/Views/Home/Index.cshtml" Line="12" Column="51" />
-      <File FileName="Presentation/Travel.Presentation/Program.cs" Line="6" Column="44" />
+      <File FileName="Presentation/Travel.Presentation/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="Presentation/Travel.Presentation/Views/Home/Index.cshtml" Line="14" Column="42" />
+      <File FileName="Presentation/Travel.Presentation/Program.cs" Line="27" Column="1" />
       <File FileName="Presentation/Travel.Presentation/Views/Shared/_ValidationScriptsPartial.cshtml" />
-      <File FileName="Presentation/Travel.Presentation/Views/_ViewImports.cshtml" />
+      <File FileName="Presentation/Travel.Presentation/Views/_ViewImports.cshtml" Line="7" Column="1" />
       <File FileName="Presentation/Travel.Presentation/Views/_ViewStart.cshtml" />
-      <File FileName="Presentation/Travel.Presentation/web/index.html" />
-      <File FileName="Presentation/Travel.Presentation/web/contact.html" Line="1" Column="1" />
-      <File FileName="Presentation/Travel.Presentation/Controllers/HomeController.cs" Line="18" Column="23" />
-      <File FileName="Core/Domain/Entities/BaseEntity.cs" Line="10" Column="1" />
-      <File FileName="Core/Domain/Entities/Area1.cs" Line="8" Column="43" />
-      <File FileName="Infrastructure/Persistance/Contexts/ProjectDbContext.cs" Line="11" Column="52" />
-      <File FileName="Infrastructure/Persistance/ServiceRegistration.cs" Line="15" Column="77" />
-      <File FileName="Infrastructure/Persistance/DesignTimeDbContext.cs" Line="16" Column="6" />
-      <File FileName="Core/Application/Repositories/IRepository.cs" Line="10" Column="32" />
-      <File FileName="Core/Application/Repositories/IReadRepository.cs" Line="9" Column="36" />
-      <File FileName="Core/Application/Repositories/IFirstAreaReadRepository.cs" Line="6" Column="65" />
-      <File FileName="Infrastructure/Persistance/Repositories/ReadRepository.cs" Line="24" Column="22" />
-      <File FileName="Infrastructure/Persistance/Repositories/FirstAreaReadRepository.cs" Line="11" Column="10" />
+      <File FileName="Presentation/Travel.Presentation/web/index.html" Line="1" Column="1" />
+      <File FileName="Presentation/Travel.Presentation/web/contact.html" />
+      <File FileName="Presentation/Travel.Presentation/Controllers/HomeController.cs" Line="12" Column="5" />
+      <File FileName="Core/Domain/Entities/BaseEntity.cs" />
+      <File FileName="Infrastructure/Persistance/Contexts/ProjectDbContext.cs" Line="16" Column="55" />
+      <File FileName="Infrastructure/Persistance/ServiceRegistration.cs" Line="19" Column="85" />
+      <File FileName="Infrastructure/Persistance/DesignTimeDbContext.cs" />
+      <File FileName="Core/Application/Repositories/IRepository.cs" Line="1" Column="1" />
+      <File FileName="Core/Application/Repositories/IReadRepository.cs" Line="1" Column="1" />
+      <File FileName="Core/Application/Repositories/IFirstAreaReadRepository.cs" Line="1" Column="1" />
+      <File FileName="Infrastructure/Persistance/Repositories/ReadRepository.cs" Line="1" Column="1" />
+      <File FileName="Infrastructure/Persistance/Repositories/FirstAreaReadRepository.cs" Line="10" Column="3" />
+      <File FileName="Presentation/Travel.Presentation/Views/Home/_NewsPartial.cshtml" Line="1" Column="1" />
+      <File FileName="Core/Domain/Entities/FirstArea.cs" Line="6" Column="2" />
+      <File FileName="Core/Domain/Entities/SecondArea.cs" Line="1" Column="1" />
+      <File FileName="Core/Application/Repositories/ISecondAreaReadRepository.cs" Line="6" Column="45" />
+      <File FileName="Infrastructure/Persistance/Repositories/SecondAreaReadRepository.cs" Line="8" Column="40" />
+      <File FileName="Presentation/Travel.Presentation/Views/Home/SecondArea.cshtml" Line="1" Column="1" />
+      <File FileName="Presentation/Travel.Presentation/Views/Home/FirstArea.cshtml" Line="1" Column="1" />
+      <File FileName="Presentation/Travel.Presentation/Travel.Presentation.csproj" />
+      <File FileName="Presentation/Travel.Presentation/ViewComponents/FirstArea.cs" Line="24" Column="1" />
+      <File FileName="Presentation/Travel.Presentation/Views/Components/FirstArea/Default.cshtml" Line="2" Column="17" />
+      <File FileName="Presentation/Travel.Presentation/ViewComponents/SecondArea.cs" Line="16" Column="8" />
+      <File FileName="Presentation/Travel.Presentation/Views/Shared/Components/SecondArea/Default.cshtml" Line="1" Column="1" />
+      <File FileName="Core/Domain/Entities/ThirdArea.cs" Line="4" Column="37" />
+      <File FileName="Core/Domain/Entities/ForthArea.cs" Line="4" Column="37" />
+      <File FileName="Core/Domain/Entities/FifthArea.cs" Line="4" Column="37" />
+      <File FileName="Core/Domain/Entities/NewsArea.cs" Line="4" Column="36" />
+      <File FileName="Presentation/Travel.Presentation/Views/Shared/Components/ThirdArea/Default.cshtml" Line="7" Column="34" />
+      <File FileName="Presentation/Travel.Presentation/Views/Shared/Components/ForthArea/Default.cshtml" Line="20" Column="7" />
+      <File FileName="Presentation/Travel.Presentation/Views/Shared/Components/FifthArea/Default.cshtml" Line="14" Column="11" />
+      <File FileName="Presentation/Travel.Presentation/ViewComponents/ThirdArea.cs" Line="18" Column="31" />
+      <File FileName="Presentation/Travel.Presentation/ViewComponents/ForthArea.cs" Line="15" Column="10" />
+      <File FileName="Presentation/Travel.Presentation/ViewComponents/FifthArea.cs" Line="15" Column="10" />
+      <File FileName="Presentation/Travel.Presentation/ViewComponents/NewsArea.cs" Line="15" Column="10" />
+      <File FileName="Presentation/Travel.Presentation/Views/Shared/Components/NewsArea/Default.cshtml" Line="51" Column="1" />
+      <File FileName="Core/Application/Repositories/IThirdAreaReadRepository.cs" Line="6" Column="71" />
+      <File FileName="Core/Application/Repositories/IForthAreaReadRepository.cs" Line="6" Column="71" />
+      <File FileName="Core/Application/Repositories/IFiftAreaReadRepository.cs" Line="6" Column="70" />
+      <File FileName="Core/Application/Repositories/INewsAreaReadRepository.cs" Line="6" Column="69" />
+      <File FileName="Infrastructure/Persistance/Repositories/ThirdAreaReadRepository.cs" Line="13" Column="6" />
+      <File FileName="Infrastructure/Persistance/Repositories/ForthAreaReadRepository.cs" Line="10" Column="21" />
+      <File FileName="Infrastructure/Persistance/Repositories/FiftAreaReadRepository.cs" Line="15" Column="1" />
+      <File FileName="Infrastructure/Persistance/Repositories/NewsAreaReadRepository.cs" Line="12" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,6 +61,9 @@
               <Node name="Application" expanded="True">
                 <Node name="Repositories" expanded="True" />
               </Node>
+              <Node name="Domain" expanded="True">
+                <Node name="Entities" expanded="True" />
+              </Node>
             </Node>
             <Node name="Infrastructure" expanded="True">
               <Node name="Persistance" expanded="True">
@@ -37,9 +72,23 @@
               </Node>
             </Node>
             <Node name="Presentation" expanded="True">
-              <Node name="Travel.Presentation" expanded="True" selected="True">
+              <Node name="Travel.Presentation" expanded="True">
                 <Node name="Controllers" expanded="True" />
-                <Node name="wwwroot" expanded="True" />
+                <Node name="ViewComponents" expanded="True">
+                  <Node name="ThirdArea.cs" selected="True" />
+                </Node>
+                <Node name="Views" expanded="True">
+                  <Node name="Shared" expanded="True">
+                    <Node name="Components" expanded="True">
+                      <Node name="FifthArea" expanded="True" />
+                      <Node name="FirstArea" expanded="True" />
+                      <Node name="ForthArea" expanded="True" />
+                      <Node name="NewsArea" expanded="True" />
+                      <Node name="SecondArea" expanded="True" />
+                      <Node name="ThirdArea" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -47,14 +96,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Presentation.Travel.Presentation PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.ItemProperties.Infrastructure.Persistance FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Core.Domain FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Core.Application FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Presentation.Travel.Presentation PreferredExecutionTarget="/Applications/Brave Browser.app" />
 </Properties>

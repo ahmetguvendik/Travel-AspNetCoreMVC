@@ -16,8 +16,44 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/Travel/Presentation/Travel.Presentation
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/Travel/Presentation/Travel.Presentation/Views/Home/FirstArea.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9GaXJzdEFyZWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/Travel/Presentation/Travel.Presentation/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/Travel/Presentation/Travel.Presentation/Views/Home/SecondArea.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9TZWNvbmRBcmVhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/Travel/Presentation/Travel.Presentation/Views/Home/_NewsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9fTmV3c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/Travel/Presentation/Travel.Presentation/Views/Shared/Components/FifthArea/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvRmlmdGhBcmVhL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/Travel/Presentation/Travel.Presentation/Views/Shared/Components/FirstArea/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvRmlyc3RBcmVhL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/Travel/Presentation/Travel.Presentation/Views/Shared/Components/ForthArea/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvRm9ydGhBcmVhL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/Travel/Presentation/Travel.Presentation/Views/Shared/Components/NewsArea/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvTmV3c0FyZWEvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/Travel/Presentation/Travel.Presentation/Views/Shared/Components/SecondArea/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvU2Vjb25kQXJlYS9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/Travel/Presentation/Travel.Presentation/Views/Shared/Components/ThirdArea/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVGhpcmRBcmVhL0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/Travel/Presentation/Travel.Presentation/Views/Shared/Error.cshtml]
