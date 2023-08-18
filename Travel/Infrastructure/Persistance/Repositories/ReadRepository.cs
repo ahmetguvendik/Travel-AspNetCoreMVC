@@ -21,6 +21,11 @@ namespace Persistance.Repositories
             return Table.FirstOrDefault();
         }
 
+        public IQueryable<T> GetAllList()
+        {
+            return Table;
+        }
+
         public async Task<T> GetById(string id)
         {
             return await Table.FirstOrDefaultAsync(x => x.Id == id);

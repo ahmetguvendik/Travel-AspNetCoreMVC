@@ -1,17 +1,21 @@
 ﻿using System;
+using Application.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Travel.Presentation.ViewComponents
 {
 	public class NewsArea : ViewComponent
 	{
-		public NewsArea()
+        private readonly INewsAreaReadRepository _newsAreaReadRepository;
+		public NewsArea(INewsAreaReadRepository newsAreaReadRepository)
 		{
+            _newsAreaReadRepository = newsAreaReadRepository;
 		}
 
         public IViewComponentResult Invoke()
         {
-            return View();
+            var values = _newsAreaReadRepository.GetAllList();
+            return View(values);
         }
     }
 }

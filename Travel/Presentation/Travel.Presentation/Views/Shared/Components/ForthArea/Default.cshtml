@@ -1,20 +1,17 @@
-﻿<div class="what_you py-5" id="services">
+﻿@using Domain.Entities
+@model IQueryable<ForthArea>
+
+<div class="what_you py-5" id="services">
     <div class="row about-info-grids text-center pt-lg-5">
-        <div class="col-md-4 about-info about-info1">
-            <span class="fa fa-check"></span>
-            <h4>Sit amet</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-        </div>
-        <div class="col-md-4 about-info about-info2">
-            <span class="fa fa-cog"></span>
-            <h4>Adipisicing</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-        </div>
-        <div class="col-md-4 about-info about-info3">
-            <span class="fa fa-cube"></span>
-            <h4>Dolor sit</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-        </div>
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 about-info about-info1">
+                <span class="fa fa-check"></span>
+                <h4>@item.Title</h4>
+                <p>@item.SubTitle</p>
+            </div>
+        }
+
 
     </div>
 </div>

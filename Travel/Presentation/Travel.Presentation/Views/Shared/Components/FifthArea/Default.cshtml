@@ -1,13 +1,16 @@
-﻿<section class="foot-top py-lg-5">
+﻿@using Domain.Entities
+@model FifthArea
+
+<section class="foot-top py-lg-5">
     <div class="container py-5">
-        <h2 class="text-white">Integer porttitor <span>mollisar</span> </h2>
-        <p class="mt-4 text-center text-white">Integer porttitor mollisar lorem, at molestie arcu pulvinar ut. Proin ac fermentum est.</p>
+        <h2 class="text-white">@Model.Title </h2>
+        <p class="mt-4 text-center text-white">@Model.SubTitle</p>
         <div class="row inner-conent-w3ls mt-5">
             <div class="col-md-6 inner-conent-lft">
-                <a href="#about" class="banner-button2 btn" data-toggle="modal" aria-pressed="false" data-target="#exampleModal">Get Started </a>
+                <a href="#about" class="banner-button2 btn" data-toggle="modal" aria-pressed="false" data-target="#exampleModal">@Model.ButtonTitle</a>
             </div>
             <div class="col-md-6 inner-conent-rgt">
-                <a href="index.html" class="banner-button btn">LEARN MORE </a>
+                <a href="index.html" class="banner-button btn">@Model.ButtonTitle2</a>
             </div>
         </div>
     </div>
